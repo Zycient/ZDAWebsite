@@ -94,7 +94,7 @@ const AboutPage = () => {
               Abstract Media Creator
             </span>
             <p className="about-intro-blurb-md hidden md:block my-2 text-slate-800 dark:text-slate-200 text-pretty pointer-events-none select-none">
-              I am Anubis; I love photography, music, and gaming,
+              I am Zero; I love photography, music, and gaming,
               <br /> and I create abstract oddities with a focus on
               <br />
               <span className="italic font-semibold tracking-wide">
@@ -120,7 +120,7 @@ const AboutPage = () => {
         </div>
         <div className="about-intro-blurb-container-mobile flex flex-col md:hidden justify-center items-center mx-2 mb-4">
           <p className="about-intro-blurb text-slate-800 dark:text-slate-200 text-pretty pointer-events-none select-none">
-            I am Anubis; I love photography, music, and gaming,
+            I am Zero; I love photography, music, and gaming,
             <br /> but I also create abstract oddities with a focus on
             <br />
             <span className="italic font-semibold tracking-wide">

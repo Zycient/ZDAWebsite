@@ -124,6 +124,24 @@ The chasm of doubt`,
         day: 21,
         time: "0800",
       },
+      {
+        type: "poem",
+        title: "How Lovely",
+        content: `Oh how lovely it would be...
+A possibility of happiness
+Oh how charming it could be,
+A world with a glimmer of joy
+
+Oh how lovely it could be,
+To be more than a common toy
+Oh how lovely it would be...
+To be something that brings joy`,
+        datetime: "2025-06-03 1151",
+        year: 2025,
+        month: 6,
+        day: 3,
+        time: "1151",
+      },
     ],
   },
   {
@@ -131,7 +149,7 @@ The chasm of doubt`,
     contents: [
       {
         type: "rant",
-        title: "Allergies; Taking them seriously",
+        title: "Allergies - Taking Them Seriously",
         content: `I wish that allergies were taken more seriously.
         For me, this can be incredibly disabling/dehabilitating.
         There is no cure for allergies, only treatment, 
