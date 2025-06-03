@@ -9,17 +9,17 @@
   - *Node.js*: for launching the website on the backend
   - *Vite.js*: for tooling and compiling/building/bundling the JS/CSS/JSX and assets
   - *React.js*: for modular components and local state, used as the framework to enable a quick and easy Single-Page Application
-  - *Tailwind CSS*: for modular CSS classes and powerful customization, also used to store ZDA themes 
+  - *Tailwind CSS*: for modular CSS classes and powerful customization, and used to store ZDA themes in config 
   - *Joy UI*: a visual library for customized Material components and styles
     - Used for the navigation drawer and the loading spinner
   - *Radix UI*: another visual library focused on accessibility and portability
-    - Used for some of the portable SVG icons, and the base for the dropdown Theme Menu
+    - Used for the base for the dropdown Theme Menu, and some of the portable SVG icons 
   - *Recoil*: for easy and performant global state management
   - *Yet Another React Lightbox*: for well-scaled and useful photo galleries with decent customization
   - *React Router*: for pathname routing and error page support
   - *Vercel and Vercel KV*: for generous free web hosting, analytics, and Redis DB
 ### Setup/Maintenance
-- Fork and Clone the repo at https://github.com/SomGye/ZDAWebsite
+- Fork and Clone the repo at https://github.com/Zycient/ZDAWebsite
   - This uses Vite.js with the `react-ts` template. Use `npm start` to run a dev build (which will open a new tab in your last used browser), or use `npm run build` to compile a production build.
 - Updating Images:
   - The images themselves are stored in `/public/assets/[section]/[folder]`.
@@ -46,7 +46,7 @@
 - To see the Commission Tiers Examples page you can do one of the following:
   - Go to the `/examples` route (or https://zerodayanubis.com/examples)
   - Run `npm run examples`
-  - Scroll down to the footer and click the "Thank you for visiting!"
+  - Click the Examples link in the Footer
 ------
 ##### Logo Page
 - To see the ZDA Logo page you can do one of the following:
