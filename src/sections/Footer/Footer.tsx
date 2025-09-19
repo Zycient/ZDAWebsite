@@ -228,6 +228,18 @@ const Footer = () => {
                   Commission Examples
                 </div>
               </span>
+              <a href="https://downloads.khinsider.com/?u=1362772">
+                <div
+                  className={
+                    (theme === "dark"
+                      ? "footer-link-animated-dark "
+                      : "footer-link-animated ") +
+                    "text-gray-500 hover:text-gray-900 active:text-gray-900 active:font-semibold dark:text-gray-400/90 dark:hover:text-gray-300 dark:active:font-semibold motion-safe:transition-colors motion-safe:duration-200 ease-out cursor-pointer select-none"
+                  }
+                >
+                  KHInsider Downloads
+                </div>
+              </a>
             </nav>
           </div>
           <div className="hidden md:block md:w-1/2 lg:w-1/4 w-full px-4">
