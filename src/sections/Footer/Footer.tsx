@@ -228,7 +228,11 @@ const Footer = () => {
                   Commission Examples
                 </div>
               </span>
-              <a href="https://downloads.khinsider.com/?u=1362772">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://downloads.khinsider.com/?u=1362772"
+              >
                 <div
                   className={
                     (theme === "dark"
