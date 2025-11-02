@@ -50,13 +50,14 @@ const PageLinks = ({ location }: props) => {
   return (
     <nav className={locator}>
       <div className="page-link-container relative flex flex-row justify-center items-center">
+        {/* TODO: change to dynamic map() instead */}
         <div
           className={
             (page === "Home" ? "absolute " : "hidden ") +
             (locator === locators.bodyTop
               ? "right-0 top-3 ml-[5px] "
               : "bottom-0 -mb-[5px] ") +
-            "left-line w-[3px] h-[3px] rounded-lg bg-gradient-radial from-zdaBlue-500 via-zdaBlue-400 to-transparent dark:from-zdaBlue-600 dark:via-zdaBlue-700 dark:to-transparent"
+            "left-line w-[3px] h-[3px] rounded-lg bg-gradient-radial from-zdaNightshade-500 via-zdaNightshade-400 to-transparent dark:from-zdaNightshade-600 dark:via-zdaNightshade-700 dark:to-transparent"
           }
         />
         <p
@@ -73,7 +74,7 @@ const PageLinks = ({ location }: props) => {
             (locator === locators.bodyTop
               ? "right-0 top-3 ml-[5px] "
               : "bottom-0 -mb-[5px] ") +
-            "left-line w-[3px] h-[3px] rounded-lg bg-gradient-radial from-zdaBlue-500 via-zdaBlue-400 to-transparent dark:from-zdaBlue-600 dark:via-zdaBlue-700 dark:to-transparent"
+            "left-line w-[3px] h-[3px] rounded-lg bg-gradient-radial from-zdaNightshade-500 via-zdaNightshade-400 to-transparent dark:from-zdaNightshade-600 dark:via-zdaNightshade-700 dark:to-transparent"
           }
         />
         <p
@@ -90,7 +91,7 @@ const PageLinks = ({ location }: props) => {
             (locator === locators.bodyTop
               ? "right-0 top-3 ml-[5px] "
               : "bottom-0 -mb-[5px] ") +
-            "left-line w-[3px] h-[3px] rounded-lg bg-gradient-radial from-zdaBlue-500 via-zdaBlue-400 to-transparent dark:from-zdaBlue-600 dark:via-zdaBlue-700 dark:to-transparent"
+            "left-line w-[3px] h-[3px] rounded-lg bg-gradient-radial from-zdaNightshade-500 via-zdaNightshade-400 to-transparent dark:from-zdaNightshade-600 dark:via-zdaNightshade-700 dark:to-transparent"
           }
         />
         <p
@@ -107,7 +108,7 @@ const PageLinks = ({ location }: props) => {
             (locator === locators.bodyTop
               ? "right-0 top-3 ml-[5px] "
               : "bottom-0 -mb-[5px] ") +
-            "left-line w-[3px] h-[3px] rounded-lg bg-gradient-radial from-zdaBlue-500 via-zdaBlue-400 to-transparent dark:from-zdaBlue-600 dark:via-zdaBlue-700 dark:to-transparent"
+            "left-line w-[3px] h-[3px] rounded-lg bg-gradient-radial from-zdaNightshade-500 via-zdaNightshade-400 to-transparent dark:from-zdaNightshade-600 dark:via-zdaNightshade-700 dark:to-transparent"
           }
         />
         <p

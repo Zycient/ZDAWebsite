@@ -93,26 +93,45 @@ export default {
           900: '#0f3590',
           950: '#0f245c',
           1000: '#031027',
-        }
+        },
+        zdaNightshade: { // TODO: continue to test/tweak
+          50: '#f6F4Ff', //
+          100: '#EcE7Ff', //
+          200: '#D9D2Fb', //
+          300: '#C6B9Fd', //
+          400: '#AF97F8', //
+          500: '#9774ef', //
+          600: '#9162f0', //
+          650: '#895ae8', //
+          700: '#7C52D4', //
+          800: '#6246A4', //
+          900: '#473780', //
+          950: '#2A2244', //
+          1000: '#0D0526', //
+        },
       },
-      boxShadow: {
+      boxShadow: { // TODO: make dedicated -nightshade variables and test/tweak
         'theme-menu-dropdown-light': '0px 2px 38px -10px rgba(22, 23, 24, 0.35), 0px 10px 20px -15px rgba(22, 23, 24, 0.2)',
-        'theme-menu-dropdown-dark-blue': '1px 1px 38px -4px rgba(237, 247, 255, 0.25), 0px 3px 20px -15px rgba(237, 247, 255, 0.15)', // zdaBlue-50
+        // 'theme-menu-dropdown-dark-blue': '1px 1px 38px -4px rgba(237, 247, 255, 0.25), 0px 3px 20px -15px rgba(237, 247, 255, 0.15)', // zdaBlue-50
+        'theme-menu-dropdown-dark-blue': '1px 1px 38px -4px rgba(237, 247, 255, 0.25), 0px 3px 20px -15px rgba(244, 241, 252, 0.15)', // zdaNightshade-50
         'card-writings-light': '15px 15px 20px #e9e9e9cc, -15px -15px 20px #ffffffcc',
         'card-writings-light-hover': '30px 30px 44px #e9e9e9cc, -30px -30px 44px #ffffffcc',
         'card-writings-dark': '11px 10px 16px #0e0d0ec9, -11px -10px 16px #09080bc9',
         'card-writings-dark-hover': '26px 25px 32px #0e0d0ec9, -26px -25px 32px #09080bc9',
       },
-      dropShadow: {
+      dropShadow: { // TODO: make dedicated -nightshade variables and test/tweak
         'btn-light': '0px 6px 4px #19141a2a',
         'btn-dark': '0px 4px 6px #606060b5',
         'btn-dark-sm': '0px 3px 4px #60606090',
         'btn-dark-neutral': '0px 4px 3px #0a090c7a',
-        'card-light-blue': '-6px 6px 5px #2284ff24', // zdaBlue-500
+        // 'card-light-blue': '-6px 6px 5px #2284ff24', // zdaBlue-500
+        'card-light-blue': '-6px 6px 5px #ab7ed624', // zdaNightshade-500
         'card-dark': '-8px 6px 4px #1f29371a',
-        'card-sm-light-blue': '0px 6px 5px #2284ff24', // zdaBlue-500
+        // 'card-sm-light-blue': '0px 6px 5px #2284ff24', // zdaBlue-500
+        'card-sm-light-blue': '0px 6px 5px #ab7ed624', // zdaNightshade-500
         'card-sm-dark': '0px -8px 8px #1f29379a',
-        'card-sm-dark-blue': '0px 2px 10px #2284ff1a', // zdaBlue-500
+        // 'card-sm-dark-blue': '0px 2px 10px #2284ff1a', // zdaBlue-500
+        'card-sm-dark-blue': '0px 2px 10px #ab7ed61a', // zdaNightshade-500
         'card-logo-light': '0px 4px 1px #60606040',
         'card-logo-dark': '0px 4px 4px #606060c0',
         'logo-light': '14px 12px 5px #19141a24',

@@ -142,7 +142,7 @@ const ThemeMenu = () => {
           {/* Button Section */}
           <DropdownMenu.Trigger asChild>
             <button
-              className="rounded-full w-7 h-7 inline-flex items-center justify-center text-zdaBlue-600 dark:text-zdaBlue-50/60 bg-zdaBG-lightCard dark:bg-zdaBG-darkCard shadow-[0_1px_8px] shadow-stone-400 hover:shadow-stone-400/25 dark:shadow-zdaBlue-50/15 dark:hover:shadow-zdaBlue-50/5 outline outline-1 outline-zdaBlue-500/25 dark:outline-zdaBlue-50/10 hover:bg-zdaBlue-500/25 dark:hover:bg-zdaBlue-100/20 active:bg-zdaBlue-400/50 dark:active:bg-zdaBlue-50/25 motion-safe:transition ease-out motion-safe:duration-300 webkit-appearance-none appearance-none"
+              className="rounded-full w-7 h-7 inline-flex items-center justify-center text-zdaNightshade-600 dark:text-zdaNightshade-50/60 bg-zdaBG-lightCard dark:bg-zdaBG-darkCard shadow-[0_1px_8px] shadow-stone-400 hover:shadow-stone-400/25 dark:shadow-zdaNightshade-50/15 dark:hover:shadow-zdaNightshade-50/5 outline outline-1 outline-zdaNightshade-500/25 dark:outline-zdaNightshade-50/10 hover:bg-zdaNightshade-500/25 dark:hover:bg-zdaNightshade-100/20 active:bg-zdaNightshade-400/50 dark:active:bg-zdaNightshade-50/25 motion-safe:transition ease-out motion-safe:duration-300 webkit-appearance-none appearance-none"
               aria-label="Theme Menu"
               title="Theme Menu"
               onClick={() => setOpen((prev) => !prev)}
@@ -162,7 +162,7 @@ const ThemeMenu = () => {
               {themes.map((themeItem, idx) => (
                 <DropdownMenu.Item
                   key={idx}
-                  className="group flex items-center relative h-6 my-2 md:my-0 px-6 py-4 4xl:text-lg text-zdaBlue-600/90 dark:text-zdaBlue-50/75 rounded-md 3xl:rounded-lg select-none outline-none data-[highlighted]:bg-zdaBlue-600/75 data-[highlighted]:text-neutral-50 dark:data-[highlighted]:bg-zdaBlue-50/75 dark:data-[highlighted]:text-zinc-950 motion-safe:transition-colors ease-out motion-safe:duration-200"
+                  className="group flex items-center relative h-6 my-2 md:my-0 px-6 py-4 4xl:text-lg text-zdaNightshade-600/90 dark:text-zdaNightshade-50/75 rounded-md 3xl:rounded-lg select-none outline-none data-[highlighted]:bg-zdaNightshade-600/75 data-[highlighted]:text-neutral-50 dark:data-[highlighted]:bg-zdaNightshade-50/75 dark:data-[highlighted]:text-zinc-950 motion-safe:transition-colors ease-out motion-safe:duration-200"
                   onClick={() => changeTheme(themeItem)}
                 >
                   <span className="mr-2 4xl:mr-3 4k:mr-4">
@@ -177,7 +177,7 @@ const ThemeMenu = () => {
                   )}
                 </DropdownMenu.Item>
               ))}
-              <DropdownMenu.Arrow className="fill-zdaBG-lighterCard dark:fill-zdaBlue-1000" />
+              <DropdownMenu.Arrow className="fill-zdaBG-lighterCard dark:fill-zdaNightshade-1000" />
             </DropdownMenu.Content>
           </DropdownMenu.Portal>
         </DropdownMenu.Root>

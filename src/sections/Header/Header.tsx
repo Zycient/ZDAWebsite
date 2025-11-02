@@ -80,7 +80,7 @@ const Header = () => {
           <div className="header-left ml-4">
             {/* Nav Btn */}
             <button
-              className="p-2 mr-4 rounded-full bg-transparent hover:bg-zdaBlue-600/10 active:bg-zdaBlue-600/25 dark:hover:bg-zdaBlue-650/15 dark:active:bg-zdaBlue-600/30 text-neutral-900 dark:text-gray-200 hover:text-zdaBlue-600 dark:hover:text-zdaBlue-650 transition-colors duration-300 ease-out"
+              className="p-2 mr-4 rounded-full bg-transparent hover:bg-zdaNightshade-600/10 active:bg-zdaNightshade-600/25 dark:hover:bg-zdaNightshade-650/15 dark:active:bg-zdaNightshade-600/30 text-neutral-900 dark:text-gray-200 hover:text-zdaNightshade-600 dark:hover:text-zdaNightshade-650 transition-colors duration-300 ease-out"
               onClick={() => setOpen(true)}
               aria-label="Navigation Menu"
               aria-description="Opens the Navigation Menu"
