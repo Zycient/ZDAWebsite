@@ -1,3 +1,5 @@
+import { pagesList } from "./states/pageAtom";
+
 /**
  * Click to do mailto to email
  */
@@ -40,7 +42,7 @@ export const switchPage = (
     const switchDelay = 350; // ? needs extra delay for this case
     setTimeout(() => {
       // Set URL to target without refresh
-      if (target === "Home") {
+      if (target === pagesList[0].pageName) {
         window.history.replaceState({}, "", "/");
       } else {
         if (hardUrl) {
@@ -63,7 +65,7 @@ export const switchPage = (
     }, scrollDelay);
 
     // Set URL to target without refresh
-    if (target === "Home") {
+    if (target === pagesList[0].pageName) {
       window.history.replaceState({}, "", "/");
     } else {
       if (hardUrl) {

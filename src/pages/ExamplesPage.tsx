@@ -10,7 +10,7 @@ import {
 import ZDAButton from "../components/ZDAButton";
 import { loadImgHandler, switchPage } from "../helpers";
 import { useRecoilState } from "recoil";
-import { pageAtom } from "../states/pageAtom";
+import { pageAtom, pagesList } from "../states/pageAtom";
 import Lightbox from "yet-another-react-lightbox";
 import { Captions } from "yet-another-react-lightbox/plugins";
 import "yet-another-react-lightbox/styles.css";
@@ -331,13 +331,13 @@ const ExamplesPage = () => {
       </div>
       <div className="ZDAButton-container my-8">
         <ZDAButton
-          clickCallback={() => switchPage("Home", setPage)}
+          clickCallback={() => switchPage(pagesList[0].pageName, setPage)}
           leftIcon={leftArrowMdIcon}
           textContent="Go Back"
           variant="mobile-grid"
         />
         <ZDAButton
-          clickCallback={() => switchPage("Home", setPage)}
+          clickCallback={() => switchPage(pagesList[0].pageName, setPage)}
           leftIcon={leftArrowMdIcon}
           textContent="Go Back"
           variant="grid"

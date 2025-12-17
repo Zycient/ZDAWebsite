@@ -11,7 +11,7 @@ import {
   zdalogo_full_light,
 } from "../SvgSources";
 import { switchPage } from "../helpers";
-import { pageAtom } from "../states/pageAtom";
+import { pageAtom, pagesList } from "../states/pageAtom";
 import { altLongTextLogo, altLongTextLogoBlue, altZDALogoLg } from "../AltText";
 
 const logoSources = [
@@ -104,7 +104,7 @@ const LogoPage = () => {
         <div className="my-14">
           <button
             className="btn-logopage inline-flex items-center justify-between w-full min-w-48 pt-[6px] pb-[6px] pl-4 pr-4 md:scale-[1.1] lg:scale-[1.2] rounded-md text-gray-200 font-light font-outfit tracking-wider transition ease-out duration-300 motion-reduce:transition-none hover:text-gray-100 active:transition active:duration-500 active:ease-out select-none focus:outline-none relative bg-logoBtnLight dark:bg-logoBtnDark"
-            onClick={() => switchPage("Home", setPage)}
+            onClick={() => switchPage(pagesList[0].pageName, setPage)}
           >
             {/* HOVER */}
             <div className="btn-logopage-helper inline-flex items-center justify-between w-full pt-[6px] pb-[6px] pl-4 pr-4 rounded-md text-gray-200 font-medium tracking-wider bg-logoBtnHelperLight dark:bg-logoBtnHelperDark">
