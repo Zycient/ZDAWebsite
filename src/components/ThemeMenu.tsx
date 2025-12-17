@@ -153,7 +153,7 @@ const ThemeMenu = () => {
           {/* Menu Section */}
           <DropdownMenu.Portal>
             <DropdownMenu.Content
-              className="z-50 min-w-40 bg-zdaBG-lighterCard dark:bg-zdaBG-darkerCard rounded-lg p-2 shadow-theme-menu-dropdown-light dark:shadow-theme-menu-dropdown-dark-blue will-change-[opacity,transform] data-[side=top]:animate-slideDownAndFade data-[side=right]:animate-slideLeftAndFade data-[side=bottom]:animate-slideUpAndFade data-[side=left]:animate-slideRightAndFade"
+              className="z-50 min-w-40 bg-zdaBG-lighterCard dark:bg-zdaBG-darkerCard rounded-lg p-2 shadow-theme-menu-dropdown-light dark:shadow-theme-menu-dropdown-dark-nightshade will-change-[opacity,transform] data-[side=top]:animate-slideDownAndFade data-[side=right]:animate-slideLeftAndFade data-[side=bottom]:animate-slideUpAndFade data-[side=left]:animate-slideRightAndFade"
               sideOffset={5}
               align="start"
               onInteractOutside={() => setOpen(false)}
@@ -162,7 +162,7 @@ const ThemeMenu = () => {
               {themes.map((themeItem, idx) => (
                 <DropdownMenu.Item
                   key={idx}
-                  className="group flex items-center relative h-6 my-2 md:my-0 px-6 py-4 4xl:text-lg text-zdaNightshade-600/90 dark:text-zdaNightshade-50/75 rounded-md 3xl:rounded-lg select-none outline-none data-[highlighted]:bg-zdaNightshade-600/75 data-[highlighted]:text-neutral-50 dark:data-[highlighted]:bg-zdaNightshade-50/75 dark:data-[highlighted]:text-zinc-950 motion-safe:transition-colors ease-out motion-safe:duration-200"
+                  className="group flex items-center relative h-6 my-2 md:my-0 px-6 py-4 4xl:text-lg text-zdaNightshade-600/90 dark:text-zdaNightshade-50/75 rounded-md 3xl:rounded-lg select-none outline-none data-[highlighted]:bg-zdaNightshade-650/85 data-[highlighted]:text-neutral-50 dark:data-[highlighted]:bg-zdaNightshade-50/75 dark:data-[highlighted]:text-zinc-950 motion-safe:transition-colors ease-out motion-safe:duration-200"
                   onClick={() => changeTheme(themeItem)}
                 >
                   <span className="mr-2 4xl:mr-3 4k:mr-4">

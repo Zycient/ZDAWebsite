@@ -27,7 +27,7 @@ const PagePromos = () => {
     <>
       <div className="promos-container flex flex-col justify-center items-center gap-6 my-6 sm:my-8 select-none">
         {/* Print Shop Promo */}
-        <div className="promo flex flex-col justify-center items-center w-auto xxs:w-80 xs:w-[21rem] md:w-[22rem] xl:w-[23rem] 4k:w-96 h-full mx-4 p-8 gap-4 rounded-lg bg-gray-200/50 dark:bg-zdaBG-lessDarkCard/90">
+        <div className="promo flex flex-col justify-center items-center w-auto xxs:w-80 xs:w-[21rem] md:w-[22rem] xl:w-[23rem] 4k:w-96 h-full mx-4 p-8 gap-4 rounded-lg bg-zdaBG-lightNightshadeCard/90 dark:bg-zdaBG-darkNightshadeCard/25 border border-zdaNightshade-800/5 dark:border-zdaNightshade-700/5">
           <span className="promo-title text-lg font-medium tracking-wide">
             Print Shop
           </span>
@@ -48,7 +48,7 @@ const PagePromos = () => {
           />
         </div>
         {/* Downloads Promo */}
-        <div className="promo flex flex-col justify-center items-center w-auto xxs:w-80 xs:w-[21rem] md:w-[22rem] xl:w-[23rem] 4k:w-96 h-full mx-4 p-8 gap-4 rounded-lg bg-gray-200/50 dark:bg-zdaBG-lessDarkCard/90">
+        <div className="promo flex flex-col justify-center items-center w-auto xxs:w-80 xs:w-[21rem] md:w-[22rem] xl:w-[23rem] 4k:w-96 h-full mx-4 p-8 gap-4 rounded-lg bg-zdaBG-lightNightshadeCard/90 dark:bg-zdaBG-darkNightshadeCard/25 border border-zdaNightshade-800/5 dark:border-zdaNightshade-700/5">
           <span className="promo-title text-lg font-medium tracking-wide">
             Downloads
           </span>
@@ -77,7 +77,7 @@ const PagePromos = () => {
           />
         </div>
         {/* Payment Methods Promo */}
-        <div className="promo flex flex-col justify-center items-center w-auto xxs:w-80 xs:w-[21rem] md:w-[22rem] xl:w-[23rem] 4k:w-96 h-full mx-4 p-8 gap-4 rounded-lg bg-gray-200/50 dark:bg-zdaBG-lessDarkCard/90">
+        <div className="promo flex flex-col justify-center items-center w-auto xxs:w-80 xs:w-[21rem] md:w-[22rem] xl:w-[23rem] 4k:w-96 h-full mx-4 p-8 gap-4 rounded-lg bg-zdaBG-lightNightshadeCard/90 dark:bg-zdaBG-darkNightshadeCard/25 border border-zdaNightshade-800/5 dark:border-zdaNightshade-700/5">
           <span className="promo-title text-lg font-medium tracking-wide">
             Support
           </span>
@@ -100,7 +100,7 @@ const PagePromos = () => {
           </div>
         </div>
         {/* Socmeds Promo */}
-        <div className="promo flex flex-col justify-center items-center w-auto xxs:w-80 xs:w-[21rem] md:w-[22rem] xl:w-[23rem] 4k:w-96 h-full mx-4 p-8 gap-4 rounded-lg bg-gray-200/50 dark:bg-zdaBG-lessDarkCard/90">
+        <div className="promo flex flex-col justify-center items-center w-auto xxs:w-80 xs:w-[21rem] md:w-[22rem] xl:w-[23rem] 4k:w-96 h-full mx-4 p-8 gap-4 rounded-lg bg-zdaBG-lightNightshadeCard/90 dark:bg-zdaBG-darkNightshadeCard/25 border border-zdaNightshade-800/5 dark:border-zdaNightshade-700/5">
           <span className="promo-title text-lg font-medium tracking-wide">
             Social Media
           </span>

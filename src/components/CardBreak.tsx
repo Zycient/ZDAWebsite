@@ -27,8 +27,8 @@ const CardBreak = ({ isVertical, isColorful }: props) => {
               (isColorful ? " opacity-100" : " opacity-0")
             }
           >
-            <div className="left-fading-line w-6/12 h-px my-0 rounded-2xl bg-gradient-to-r from-transparent via-cyan-400 to-blue-400 dark:from-transparent dark:via-sky-500 dark:to-blue-500" />
-            <div className="right-fading-line w-6/12 h-px my-0 rounded-2xl bg-gradient-to-l from-transparent via-violet-400 to-blue-400 dark:from-transparent dark:via-indigo-500 dark:to-blue-500" />
+            <div className="left-fading-line w-6/12 h-px my-0 rounded-2xl bg-gradient-to-r from-transparent via-blue-300 to-zdaNightshade-500/90 dark:from-transparent dark:via-indigo-500/80 dark:to-zdaNightshade-600/90" />
+            <div className="right-fading-line w-6/12 h-px my-0 rounded-2xl bg-gradient-to-l from-transparent via-indigo-300 to-zdaNightshade-500/90 dark:from-transparent dark:via-violet-500/80 dark:to-zdaNightshade-600/90" />
           </div>
         </div>
       )}

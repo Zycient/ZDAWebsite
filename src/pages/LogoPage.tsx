@@ -71,9 +71,9 @@ const LogoPage = () => {
             width={400}
             height={400}
           />
-          {/* hover? */}
+          {/* HOVER */}
           <img
-            className="full-logo-hover relative w-[240px] md:w-[300px] lg:w-[360px] xl:w-[400px] 2xl:w-[440px] 3xl:w-[500px] 4xl:w-[720px] drop-shadow-logo-blue-light dark:drop-shadow-logo-blue-dark motion-safe:transition ease-in motion-safe:duration-[400ms] select-none"
+            className="full-logo-hover relative w-[240px] md:w-[300px] lg:w-[360px] xl:w-[400px] 2xl:w-[440px] 3xl:w-[500px] 4xl:w-[720px] drop-shadow-logo-nightshade-light dark:drop-shadow-logo-nightshade-dark motion-safe:transition ease-in motion-safe:duration-[400ms] select-none"
             src={zdalogo_full_blue}
             alt={altZDALogoLg}
             width={400}
