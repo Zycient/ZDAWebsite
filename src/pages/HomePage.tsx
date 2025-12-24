@@ -27,9 +27,20 @@ const HomePage = () => {
 
   return (
     <div className="home-page-container w-full flex flex-col justify-center items-center text-slate-700 dark:text-slate-200 select-none">
-      <div className="home-page-intro max-w-[90%]">
-        Welcome to the <br className="block xs:hidden" /> &nbsp; ⌞ZeroDayAnubis⌝
-        &nbsp; website!
+      {/* Uses `contents` to eliminate excess padding for smaller screens */}
+      <div className="home-page-intro max-w-[90%] contents">
+        <div className="home-page-zda-intro-container block xs:inline-flex">
+          Welcome to the <br className="block xs:hidden" />
+          {/* //? NOTE: uses negative margins to shift corner marks */}
+          <div className="home-page-zda-intro-mid-container inline-block xs:inline-flex">
+            <div className="left-corner-mark inline mt-1 -mb-1">
+              &nbsp; ⌞ &nbsp;
+            </div>
+            ZeroDayAnubis
+            <div className="right-corner-mark inline -mt-1 mb-1"> &nbsp;⌝</div>
+          </div>
+          &nbsp; website!
+        </div>
         <br />
         <p className="home-page-subintro italic text-sm my-4">
           I create abstract oddities, such as
