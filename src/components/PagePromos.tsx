@@ -13,8 +13,8 @@ import {
 } from "../links";
 import { useRecoilValue } from "recoil";
 import { themeAtom } from "../states/themeAtom";
-import kofi_gif from "/kofi_sparkle_mug-80px.gif";
-import kofi_gif_dark from "/kofi_speech_bubble-80px.gif";
+import kofi_gif from "/kofi_sparkle_mug-80px-comp32-fuzz3.gif";
+import kofi_gif_dark from "/kofi_speech_bubble-80px-comp32-fuzz3.gif";
 
 const PagePromos = () => {
   const theme = useRecoilValue(themeAtom);

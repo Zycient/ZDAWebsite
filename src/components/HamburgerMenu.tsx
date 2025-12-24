@@ -33,7 +33,7 @@ import {
   printShopLink,
   threadsLink,
 } from "../links";
-import kofi_gif from "/kofi_rainbow_mug-200px.gif";
+import kofi_gif from "/kofi_rainbow_mug-200px-comp32-fuzz3.gif";
 
 type props = {
   open: boolean;
