@@ -145,7 +145,6 @@ export default {
         'card-logo-dark': '0px 4px 4px #606060c0',
         'logo-light': '14px 12px 5px #19141a24',
         'logo-dark': '0px 0px 25px #60606012',
-        // TODO: FINISH NEW LOGO, and then check logo-nightshade-light, logo-nightshade-dark
         'logo-blue-light': '12px 10px 8px #2284ff99', // zdaBlue-500
         'logo-nightshade-light': '12px 10px 8px #ab7ed699', // zdaNightshade-500
         'logo-blue-dark': '0px 0px 16px #2284ff99', // zdaBlue-500
