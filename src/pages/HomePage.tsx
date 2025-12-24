@@ -41,7 +41,6 @@ const HomePage = () => {
           </div>
           &nbsp; website!
         </div>
-        <br />
         <p className="home-page-subintro italic text-sm my-4">
           I create abstract oddities, such as
           <br />
