@@ -8,8 +8,8 @@ import {
   zdamono_light_hover,
   zdaworks_dark,
   zdaworks_light,
-  zerodayanubis_dark,
-  zerodayanubis_light,
+  zerodayanubis_dark_nomarks,
+  zerodayanubis_light_nomarks,
 } from "../../SvgSources";
 import { chatIcon, emailIcon, privacyDocIcon } from "../../icons";
 import { clickEmail, clickLink, switchPage } from "../../helpers";
@@ -306,9 +306,11 @@ const Footer = () => {
               </div>
               <img
                 src={
-                  theme === "dark" ? zerodayanubis_dark : zerodayanubis_light
+                  theme === "dark"
+                    ? zerodayanubis_dark_nomarks
+                    : zerodayanubis_light_nomarks
                 }
-                className="hidden sm:block ml-3 max-h-[2.35rem] select-none"
+                className="hidden sm:block ml-5 max-w-40 max-h-9 select-none"
                 alt={altLongTextLogo}
               />
             </div>

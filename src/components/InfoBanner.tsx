@@ -178,7 +178,7 @@ const InfoBanner = () => {
       <div className="info-zda-container">
         <img
           src={theme === "dark" ? zerodayanubis_dark : zerodayanubis_light}
-          className="info-zda block xs:hidden sm:block lg:hidden mx-2 my-1 max-w-40 max-h-8 cursor-default select-none"
+          className="info-zda block xs:hidden sm:block lg:hidden mx-2 my-1 max-w-[11.125rem] max-h-9 cursor-default select-none"
           alt={altLongTextLogo}
         />
       </div>

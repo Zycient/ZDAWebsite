@@ -87,14 +87,14 @@ const AboutPage = () => {
           <div className="about-intro-title-container flex flex-col justify-center md:justify-start items-center md:ml-8 w-full">
             <img
               src={theme === "dark" ? zerodayanubis_dark : zerodayanubis_light}
-              className="mx-2 my-1 max-h-12 pointer-events-none select-none"
+              className="mx-2 my-1 max-h-[2.4rem] pointer-events-none select-none"
               alt={altLongTextLogo}
             />
             <span className="font-light italic text-lg my-2 pointer-events-none select-none">
               Abstract Media Creator
             </span>
             <p className="about-intro-blurb-md hidden md:block my-2 text-slate-800 dark:text-slate-200 text-pretty pointer-events-none select-none">
-              I am Zero; I love photography, music, and gaming,
+              I am Anubis; I love photography, music, and gaming,
               <br /> and I create abstract oddities with a focus on
               <br />
               <span className="italic font-semibold tracking-wide">
@@ -135,7 +135,7 @@ const AboutPage = () => {
           <div className="about-intro-title-container2 flex flex-col justify-center md:justify-start items-center md:mr-8 w-full">
             <img
               src={theme === "dark" ? zdamono_dark : zdamono_light}
-              className="mx-2 my-1 max-h-12 pointer-events-none select-none"
+              className="mx-2 my-1 max-w-12 pointer-events-none select-none"
               alt={altZDALogoSm}
             />
             <span className="h-px w-10 border-solid border-b-[3px] border-slate-800/70 dark:border-slate-200/70 rounded-xl my-2 pointer-events-none select-none" />
@@ -496,7 +496,7 @@ const AboutPage = () => {
           <div className="about-modern-title-container2 flex flex-col justify-center md:justify-start items-center md:mr-8 w-full">
             <img
               src={theme === "dark" ? zdamono_dark : zdamono_light}
-              className="mx-2 my-1 max-h-12 pointer-events-none select-none"
+              className="mx-2 my-1 max-w-12 pointer-events-none select-none"
               alt={altZDALogoSm}
             />
             <span className="h-px w-10 border-solid border-b-[3px] border-slate-800/70 dark:border-slate-200/70 rounded-xl my-2 pointer-events-none select-none" />

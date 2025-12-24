@@ -219,7 +219,7 @@ const HamburgerMenu = ({ open, setOpen }: props) => {
           <Stack direction="row" justifyContent="center" useFlexGap spacing={1}>
             <img
               src={theme === "dark" ? zerodayanubis_dark : zerodayanubis_light}
-              className="mx-4 my-2 max-h-[2.35rem] pointer-events-none select-none"
+              className="mx-4 my-2 max-h-[2.12rem] pointer-events-none select-none"
               alt={altLongTextLogo}
             />
           </Stack>
