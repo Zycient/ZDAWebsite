@@ -2,7 +2,7 @@ import * as React from "react";
 import { switchPage } from "../helpers";
 import { useRecoilState, useRecoilValue } from "recoil";
 import { themeAtom } from "../states/themeAtom";
-import { pageAtom } from "../states/pageAtom";
+import { pagesList, pageAtom } from "../states/pageAtom";
 
 type props = {
   location: string;
@@ -49,74 +49,41 @@ const PageLinks = ({ location }: props) => {
 
   return (
     <nav className={locator}>
-      <div className="page-link-container relative flex flex-row justify-center items-center">
-        <div
-          className={
-            (page === "Home" ? "absolute " : "hidden ") +
-            (locator === locators.bodyTop
-              ? "right-0 top-3 ml-[5px] "
-              : "bottom-0 -mb-[5px] ") +
-            "left-line w-[3px] h-[3px] rounded-lg bg-gradient-radial from-zdaBlue-500 via-zdaBlue-400 to-transparent dark:from-zdaBlue-600 dark:via-zdaBlue-700 dark:to-transparent"
-          }
-        />
-        <p
-          className={getNavClass("Home")}
-          onClick={() => switchPage("Home", setPage)}
-        >
-          Home
-        </p>
-      </div>
-      <div className="page-link-container relative flex flex-row justify-center items-center">
-        <div
-          className={
-            (page === "Portfolio" ? "absolute " : "hidden ") +
-            (locator === locators.bodyTop
-              ? "right-0 top-3 ml-[5px] "
-              : "bottom-0 -mb-[5px] ") +
-            "left-line w-[3px] h-[3px] rounded-lg bg-gradient-radial from-zdaBlue-500 via-zdaBlue-400 to-transparent dark:from-zdaBlue-600 dark:via-zdaBlue-700 dark:to-transparent"
-          }
-        />
-        <p
-          className={getNavClass("Portfolio")}
-          onClick={() => switchPage("Portfolio", setPage)}
-        >
-          Portfolio
-        </p>
-      </div>
-      <div className="page-link-container relative flex flex-row justify-center items-center">
-        <div
-          className={
-            (page === "Commissions" ? "absolute " : "hidden ") +
-            (locator === locators.bodyTop
-              ? "right-0 top-3 ml-[5px] "
-              : "bottom-0 -mb-[5px] ") +
-            "left-line w-[3px] h-[3px] rounded-lg bg-gradient-radial from-zdaBlue-500 via-zdaBlue-400 to-transparent dark:from-zdaBlue-600 dark:via-zdaBlue-700 dark:to-transparent"
-          }
-        />
-        <p
-          className={getNavClass("Commissions")}
-          onClick={() => switchPage("Commissions", setPage)}
-        >
-          Commissions
-        </p>
-      </div>
-      <div className="page-link-container relative flex flex-row justify-center items-center">
-        <div
-          className={
-            (page === "About" ? "absolute " : "hidden ") +
-            (locator === locators.bodyTop
-              ? "right-0 top-3 ml-[5px] "
-              : "bottom-0 -mb-[5px] ") +
-            "left-line w-[3px] h-[3px] rounded-lg bg-gradient-radial from-zdaBlue-500 via-zdaBlue-400 to-transparent dark:from-zdaBlue-600 dark:via-zdaBlue-700 dark:to-transparent"
-          }
-        />
-        <p
-          className={getNavClass("About")}
-          onClick={() => switchPage("About", setPage)}
-        >
-          About
-        </p>
-      </div>
+      {pagesList.map(
+        (currentPage, idx) =>
+          currentPage.isNav && (
+            <div
+              className="page-link-container relative flex flex-row justify-center items-center"
+              key={idx}
+            >
+              <div
+                className={
+                  (page === currentPage.pageName && currentPage.isNav
+                    ? "absolute "
+                    : "hidden ") +
+                  (locator === locators.bodyTop
+                    ? "right-0 top-3 ml-[5px] "
+                    : "bottom-0 -mb-[5px] ") +
+                  "left-line w-[3px] h-[3px] rounded-lg bg-gradient-radial from-zdaNightshade-500 via-zdaNightshade-400 to-transparent dark:from-zdaNightshade-600 dark:via-zdaNightshade-700 dark:to-transparent"
+                }
+              />
+              <p
+                className={
+                  currentPage.isNav
+                    ? getNavClass(currentPage.pageName)
+                    : "hidden"
+                }
+                onClick={() =>
+                  currentPage.isNav
+                    ? switchPage(currentPage.pageName, setPage)
+                    : undefined
+                }
+              >
+                {`${currentPage.pageName}`}
+              </p>
+            </div>
+          )
+      )}
     </nav>
   );
 };

@@ -62,8 +62,8 @@ body.noscroll {
     transition: color 0.3s ease-out, filter 0.3s ease-out;
   }
   &:hover {
-    /* zdaBlue-500 */
-    color: #2284ff;
+    /* zdaNightshade-500 */
+    color: #9774ef;
     filter: drop-shadow(0 0 32px #2284ff60);
     @media (prefers-reduced-motion: no-preference) {
       transition: color 0.3s ease-out, filter 0.3s ease-out;
@@ -82,8 +82,8 @@ body.noscroll {
   height: 2px;
   bottom: -0.3rem;
   left: 0;
-  /* zdaBlue-500 */
-  background-color: #2284ff;
+  /* zdaNightshade-500 */
+  background-color: #9774ef;
   border-top-left-radius: 11px;
   border-bottom-left-radius: 11px;
   border-top-right-radius: 11px;
@@ -104,8 +104,8 @@ body.noscroll {
   height: 3px;
   bottom: -0.3rem;
   left: 0;
-  /* zdaBlue-500 */
-  background-color: #2284ff;
+  /* zdaNightshade-500 */
+  background-color: #9774ef;
   border-top-left-radius: 11px;
   border-bottom-left-radius: 11px;
   border-top-right-radius: 11px;
@@ -130,8 +130,8 @@ body.noscroll {
     transition: color 0.3s ease-out, filter 0.3s ease-out;
   }
   &:hover {
-    /* zdaBlue-600 */
-    color: #0b62ff;
+    /* zdaNightshade-600 */
+    color: #9162f0;
     filter: drop-shadow(0 0 3px #0b62ff29);
     @media (prefers-reduced-motion: no-preference) {
       transition: color 0.3s ease-out, filter 0.3s ease-out;
@@ -151,8 +151,8 @@ body.noscroll {
   height: 2px;
   bottom: -0.3rem;
   left: 0;
-  /* zdaBlue-600 */
-  background-color: #0b62ff;
+  /* zdaNightshade-600 */
+  background-color: #9162f0;
   border-top-left-radius: 11px;
   border-bottom-left-radius: 11px;
   border-top-right-radius: 11px;
@@ -174,8 +174,8 @@ body.noscroll {
   height: 3px;
   bottom: -0.3rem;
   left: 0;
-  /* zdaBlue-600 */
-  background-color: #0b62ff;
+  /* zdaNightshade-600 */
+  background-color: #9162f0;
   border-top-left-radius: 11px;
   border-bottom-left-radius: 11px;
   border-top-right-radius: 11px;
@@ -324,8 +324,8 @@ div.header-logo-box:active img.header-logo-hover {
 
 header.top-header {
   /* Use bg color from info-banner-container */
-  /* zdaBlue-600 */
-  background-color: rgba(11, 98, 255, 0.07);
+  /* zdaNightshade-600 */
+  background-color: rgba(145, 98, 240, 0.07);
   background-image: none;
   transition: all 0.3s ease-out;
   @media (prefers-reduced-motion) {
@@ -335,11 +335,11 @@ header.top-header {
 
 header.scrolled-header {
   background-color: unset;
-  /* zdaBlue-400/5 */
+  /* zdaNightshade-500/6 */
   background-image: linear-gradient(
     to top,
-    rgba(34, 132, 255, 0.06),
-    rgba(34, 132, 255, 0)
+    rgba(151, 116, 239, 0.06),
+    rgba(151, 116, 239, 0)
   );
   /* gray-200/50 */
   border-color: rgba(229, 231, 235, 0.5);
@@ -351,8 +351,8 @@ header.scrolled-header {
 
 header.top-header-dark {
   /* Use bg color from info-banner-container */
-  /* zdaBlue-600 */
-  background-color: rgba(11, 98, 255, 0.045);
+  /* zdaNightshade-600 */
+  background-color: rgba(145, 98, 240, 0.045);
   background-image: none;
   transition: all 0.3s ease-out;
   @media (prefers-reduced-motion) {
@@ -362,11 +362,11 @@ header.top-header-dark {
 
 header.scrolled-header-dark {
   background-color: unset;
-  /* zdaBlue-700/5 */
+  /* zdaNightshade-700/5 */
   background-image: linear-gradient(
     to top,
-    rgba(4, 74, 241, 0.055),
-    rgba(4, 74, 241, 0)
+    rgba(124, 82, 212, 0.055),
+    rgba(124, 82, 212, 0)
   );
   /* stone-800/10 */
   border-color: rgba(41, 37, 36, 0.1);

@@ -8,8 +8,8 @@ import {
   zdamono_light_hover,
   zdaworks_dark,
   zdaworks_light,
-  zerodayanubis_dark,
-  zerodayanubis_light,
+  zerodayanubis_dark_nomarks,
+  zerodayanubis_light_nomarks,
 } from "../../SvgSources";
 import { chatIcon, emailIcon, privacyDocIcon } from "../../icons";
 import { clickEmail, clickLink, switchPage } from "../../helpers";
@@ -60,7 +60,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="w-full z-30 bottom-0 left-0 mt-auto bg-gradient-to-b from-zdaBlue-400/5 dark:from-zdaBlue-700/0 dark:to-zdaBlue-700/5 text-gray-700 dark:text-gray-200 text-base border-t border-gray-200/50 dark:border-stone-800/10 rounded-md">
+    <footer className="w-full z-30 bottom-0 left-0 mt-auto bg-gradient-to-b from-zdaNightshade-400/5 dark:from-zdaNightshade-700/0 dark:to-zdaNightshade-700/5 text-gray-700 dark:text-gray-200 text-base border-t border-gray-200/50 dark:border-stone-800/10 rounded-md">
       <div className="px-3 md:px-7 lg:px-10 py-8 mx-auto">
         <div className="flex flex-wrap md:text-left text-center order-first">
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -272,7 +272,7 @@ const Footer = () => {
               Thank you for visiting!
             </h3>
             <a
-              className="inline-flex justify-start items-center gap-2 text-sm text-zdaBlue-500 hover:text-zdaBlue-800 active:text-zdaBlue-1000 dark:text-gray-400/80 dark:hover:text-zdaBlue-500 dark:active:text-zdaBlue-500/70 select-none"
+              className="inline-flex justify-start items-center gap-2 text-sm text-zdaNightshade-500 hover:text-zdaNightshade-800 active:text-zdaNightshade-1000 dark:text-gray-400/80 dark:hover:text-zdaNightshade-500 dark:active:text-zdaNightshade-500/70 select-none"
               href={privacyLink}
               target="_blank"
               rel="noopener noreferrer"
@@ -283,7 +283,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-gradient-to-tr from-zdaBlue-500/15 to-gray-200 dark:from-zdaBlue-900/5">
+      <div className="bg-gradient-to-tr from-zdaNightshade-500/15 to-gray-200 dark:from-zdaNightshade-900/5">
         <div className="w-full px-5 md:px-9 lg:px-12 py-8 mx-auto flex items-center flex-col-reverse sm:flex-row">
           {/* Logo and Copyright Container - Used for ordering on mobile vs desktop */}
           <div className="flex flex-col sm:flex-row items-center mt-8 sm:mt-auto">
@@ -306,9 +306,11 @@ const Footer = () => {
               </div>
               <img
                 src={
-                  theme === "dark" ? zerodayanubis_dark : zerodayanubis_light
+                  theme === "dark"
+                    ? zerodayanubis_dark_nomarks
+                    : zerodayanubis_light_nomarks
                 }
-                className="hidden sm:block ml-3 max-h-[2.35rem] select-none"
+                className="hidden sm:block ml-5 max-w-40 max-h-9 select-none"
                 alt={altLongTextLogo}
               />
             </div>

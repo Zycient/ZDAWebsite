@@ -3,6 +3,7 @@ export const altLongTextLogo = "ZERODAYANUBIS Logo";
 export const altLongTextLogoRedpink = "ZERODAYANUBIS Logo in Redpink";
 export const altLongTextLogoRed = "ZERODAYANUBIS Logo in Red";
 export const altLongTextLogoBlue = "ZERODAYANUBIS Logo in Blue";
+export const altLongTextLogoNightshade = "ZERODAYANUBIS Logo in Nightshade Purple";
 export const altZDALogoSm = "ZDA Small Z Logo";
 export const altZDALogoLg = "ZDA Large Z Logo";
 export const altZDALogoCirc = "ZDA Circular Logo";

@@ -38,19 +38,19 @@ export const etherealism_red_full =
 
 // ZDA and Logos
 export const zerodayanubis_dark = "/zerodayanubis_dark.svg";
+export const zerodayanubis_dark_nomarks = "/zerodayanubis_dark_nomarks.svg";
 export const zerodayanubis_light = "/zerodayanubis_light.svg";
-export const zerodayanubis_blue = "/zerodayanubis_blue.svg";
+export const zerodayanubis_light_nomarks = "/zerodayanubis_light_nomarks.svg";
+export const zerodayanubis_nightshade = "/zerodayanubis_nightshade.svg";
 export const zdamono_dark = "/zda_dark_mono.svg";
 export const zdamono_light = "/zda_light_mono.svg";
 export const zdamono_dark_hover = "/zda_dark_mono_hover.svg";
 export const zdamono_light_hover = "/zda_light_mono_hover.svg";
 export const zdalogo_dark_blue = "/zda_dark_blue.svg";
 export const zdalogo_light_blue = "/zda_light_blue.svg";
-export const zdalogo_full_blue = "/zda_full_blue.svg";
+export const zdalogo_full_main = "/zda_full_main.svg";
 export const zdalogo_full_light = "/zda_full_light.svg";
 export const zdalogo_full_dark = "/zda_full_dark.svg";
-export const zda_dark_circ_logo = "/zda_dark_circ.svg";
-export const zda_light_circ_logo = "/zda_light_circ.svg";
 export const zda_circ_hover_logo = "/zda_circ_hover.svg";
 export const zdaworks_dark = "/zdaworks_dark_nl.svg";
 export const zdaworks_light = "/zdaworks_light_nl.svg";

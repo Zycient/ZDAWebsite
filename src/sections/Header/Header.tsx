@@ -3,11 +3,11 @@ import { useRecoilState, useRecoilValue } from "recoil";
 import { themeAtom } from "../../states/themeAtom";
 import ThemeMenu from "../../components/ThemeMenu";
 import {
-  zda_dark_circ_logo,
-  zda_light_circ_logo,
+  zdalogo_full_dark,
   zda_circ_hover_logo,
-  zerodayanubis_dark,
-  zerodayanubis_light,
+  zerodayanubis_dark_nomarks,
+  zerodayanubis_light_nomarks,
+  zdalogo_full_light,
 } from "../../SvgSources";
 import { switchPage } from "../../helpers";
 import { pageAtom } from "../../states/pageAtom";
@@ -80,7 +80,7 @@ const Header = () => {
           <div className="header-left ml-4">
             {/* Nav Btn */}
             <button
-              className="p-2 mr-4 rounded-full bg-transparent hover:bg-zdaBlue-600/10 active:bg-zdaBlue-600/25 dark:hover:bg-zdaBlue-650/15 dark:active:bg-zdaBlue-600/30 text-neutral-900 dark:text-gray-200 hover:text-zdaBlue-600 dark:hover:text-zdaBlue-650 transition-colors duration-300 ease-out"
+              className="p-2 mr-4 rounded-full bg-transparent hover:bg-zdaNightshade-600/10 active:bg-zdaNightshade-600/25 dark:hover:bg-zdaNightshade-650/15 dark:active:bg-zdaNightshade-600/30 text-neutral-900 dark:text-gray-200 hover:text-zdaNightshade-600 dark:hover:text-zdaNightshade-650 transition-colors duration-300 ease-out"
               onClick={() => setOpen(true)}
               aria-label="Navigation Menu"
               aria-description="Opens the Navigation Menu"
@@ -94,9 +94,7 @@ const Header = () => {
             <div className="header-logo-box mr-1 sm:mr-2 lg:mr-1 motion-safe:transition ease-in motion-safe:duration-100 active:opacity-75">
               {/* Logo Btn */}
               <img
-                src={
-                  theme === "dark" ? zda_dark_circ_logo : zda_light_circ_logo
-                }
+                src={theme === "dark" ? zdalogo_full_light : zdalogo_full_dark}
                 alt={altZDALogoCirc}
                 title="Click to see ZDA logo page"
                 className="header-logo cursor-pointer pointer-events-auto select-none motion-safe:transition ease-in motion-safe:duration-[400ms] 3xl:w-[36px] 3xl:h-[36px] 4xl:w-[44px] 4xl:h-[44px] 4k:w-[60px] 4k:h-[60px]"
@@ -117,8 +115,12 @@ const Header = () => {
               />
             </div>
             <img
-              src={theme === "dark" ? zerodayanubis_dark : zerodayanubis_light}
-              className="hidden lg:block ml-4 mr-2 max-h-9 select-none"
+              src={
+                theme === "dark"
+                  ? zerodayanubis_dark_nomarks
+                  : zerodayanubis_light_nomarks
+              }
+              className="hidden lg:block ml-4 mr-1 max-w-[9.75rem] max-h-[2.12rem] select-none"
               alt={altLongTextLogo}
             />
             <PageLinks location={"headerLg"} />
@@ -126,8 +128,12 @@ const Header = () => {
           {/* MID RIGHT - Title/Nav Links - (only xs thru md) */}
           <div className="header-midright hidden xs:flex md:hidden absolute left-1/2 right-1/2 justify-center">
             <img
-              src={theme === "dark" ? zerodayanubis_dark : zerodayanubis_light}
-              className="hidden xs:block sm:hidden lg:block w-full min-w-40 min-h-7 cursor-default select-none"
+              src={
+                theme === "dark"
+                  ? zerodayanubis_dark_nomarks
+                  : zerodayanubis_light_nomarks
+              }
+              className="hidden xs:block sm:hidden lg:block w-full min-w-[9.75rem] min-h-7 cursor-default select-none"
               alt={altLongTextLogo}
             />
             <PageLinks location={"headerSm"} />

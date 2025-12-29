@@ -174,11 +174,11 @@ const InfoBanner = () => {
   }, [statusReady]);
 
   return (
-    <div className="info-banner-container w-full py-2 lg:py-0 flex flex-col lg:flex-row justify-center items-center bg-gradient-to-b from-zdaBlue-600/[0.07] dark:from-zdaBlue-600/[0.045] to-transparent">
+    <div className="info-banner-container w-full py-2 lg:py-0 flex flex-col lg:flex-row justify-center items-center bg-gradient-to-b from-zdaNightshade-600/[0.07] dark:from-zdaNightshade-600/[0.045] to-transparent">
       <div className="info-zda-container">
         <img
           src={theme === "dark" ? zerodayanubis_dark : zerodayanubis_light}
-          className="info-zda block xs:hidden sm:block lg:hidden mx-2 my-1 max-w-40 max-h-8 cursor-default select-none"
+          className="info-zda block xs:hidden sm:block lg:hidden mx-2 my-1 max-w-[11.125rem] max-h-9 cursor-default select-none"
           alt={altLongTextLogo}
         />
       </div>

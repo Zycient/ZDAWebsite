@@ -5,7 +5,7 @@ import Stack from "@mui/joy/Stack";
 import Sheet from "@mui/joy/Sheet";
 import Box from "@mui/joy/Box";
 import { useRecoilState, useRecoilValue } from "recoil";
-import { pageAtom } from "../states/pageAtom";
+import { pageAtom, pagesList } from "../states/pageAtom";
 import { clickLink, switchPage } from "../helpers";
 import { themeAtom } from "../states/themeAtom";
 import {
@@ -33,7 +33,7 @@ import {
   printShopLink,
   threadsLink,
 } from "../links";
-import kofi_gif from "/kofi_rainbow_mug-200px.gif";
+import kofi_gif from "/kofi_rainbow_mug-200px-comp32-fuzz3.gif";
 
 type props = {
   open: boolean;
@@ -99,38 +99,20 @@ const HamburgerMenu = ({ open, setOpen }: props) => {
               Sections
             </p>
             <Box className="flex flex-col flex-wrap content-center items-center justify-center xl:justify-left gap-[1px] xl:gap-[2px]">
-              <ZDAButton
-                clickCallback={() => {
-                  switchPage("Home", setPage);
-                  setOpen(false);
-                }}
-                textContent="Home"
-                variant="hamburger-section"
-              />
-              <ZDAButton
-                clickCallback={() => {
-                  switchPage("Portfolio", setPage);
-                  setOpen(false);
-                }}
-                textContent="Portfolio"
-                variant="hamburger-section"
-              />
-              <ZDAButton
-                clickCallback={() => {
-                  switchPage("Commissions", setPage);
-                  setOpen(false);
-                }}
-                textContent="Commissions"
-                variant="hamburger-section"
-              />
-              <ZDAButton
-                clickCallback={() => {
-                  switchPage("About", setPage);
-                  setOpen(false);
-                }}
-                textContent="About"
-                variant="hamburger-section"
-              />
+              {pagesList.map((currentPage, idx) => (
+                <React.Fragment key={idx}>
+                  {currentPage.isNav && (
+                    <ZDAButton
+                      clickCallback={() => {
+                        switchPage(pagesList[idx].pageName, setPage);
+                        setOpen(false);
+                      }}
+                      textContent={pagesList[idx].pageName}
+                      variant="hamburger-section"
+                    />
+                  )}
+                </React.Fragment>
+              ))}
             </Box>
             <p className="text-lg font-medium text-gray-700 dark:text-gray-200 pointer-events-none select-none mt-2">
               Social Media
@@ -237,7 +219,7 @@ const HamburgerMenu = ({ open, setOpen }: props) => {
           <Stack direction="row" justifyContent="center" useFlexGap spacing={1}>
             <img
               src={theme === "dark" ? zerodayanubis_dark : zerodayanubis_light}
-              className="mx-4 my-2 max-h-[2.35rem] pointer-events-none select-none"
+              className="mx-4 my-2 max-h-[2.12rem] pointer-events-none select-none"
               alt={altLongTextLogo}
             />
           </Stack>

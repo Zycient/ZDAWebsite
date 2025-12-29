@@ -166,7 +166,7 @@ const CommissionsPage = () => {
         <div className="commissions-page-comm-info mx-1 my-3 sm:my-0 sm:mt-3 inline-block text-gray-600 dark:text-gray-300 tracking-wide select-none">
           For full commission information, click{" "}
           <p
-            className="home-page-text-link inline-block italic font-semibold text-zdaBlue-650 dark:text-zdaBlue-600 hover:text-slate-700 dark:hover:text-slate-300 active:text-slate-400 dark:active:text-slate-400 border-b border-solid border-transparent hover:border-zdaBlue-650 dark:hover:border-zdaBlue-600 motion-safe:transition-colors motion-safe:duration-300 ease-out cursor-pointer"
+            className="home-page-text-link inline-block italic font-semibold text-zdaNightshade-650 dark:text-zdaNightshade-600 hover:text-slate-700 dark:hover:text-slate-300 active:text-slate-400 dark:active:text-slate-400 border-b border-solid border-transparent hover:border-zdaNightshade-650 dark:hover:border-zdaNightshade-600 motion-safe:transition-colors motion-safe:duration-300 ease-out cursor-pointer"
             onClick={() => clickLink(commInfoLink)}
           >
             here
@@ -175,7 +175,7 @@ const CommissionsPage = () => {
         </div>
         {/* Abstractify */}
         <div
-          className="commissions-page-card-container flex flex-col w-[calc(100%-1.75rem)] xs:w-[25rem] sm:w-[34rem] md:w-[42rem] lg:w-[48rem] 3xl:w-[55rem] h-full mx-4 my-4 p-4 gap-4 rounded-xl bg-gradient-to-t sm:bg-gradient-to-tl from-zdaBG-lightCard dark:from-zdaBG-darkCard to-zdaBlue-100 dark:to-gray-700 drop-shadow-card-sm-light-blue sm:drop-shadow-card-light-blue dark:drop-shadow-card-sm-dark dark:sm:drop-shadow-card-dark"
+          className="commissions-page-card-container flex flex-col w-[calc(100%-1.75rem)] xs:w-[25rem] sm:w-[34rem] md:w-[42rem] lg:w-[48rem] 3xl:w-[55rem] h-full mx-4 my-4 p-4 gap-4 rounded-xl bg-gradient-to-t sm:bg-gradient-to-tl from-zdaBG-lightCard dark:from-zdaNightshade-950/35 to-zdaNightshade-50 dark:to-zdaNightshade-950/40 drop-shadow-card-sm-light-nightshade sm:drop-shadow-card-light-nightshade dark:drop-shadow-card-sm-dark dark:sm:drop-shadow-card-dark"
           onMouseEnter={() => setHover_abstractify(true)}
           onMouseLeave={() => setHover_abstractify(false)}
         >
@@ -203,7 +203,7 @@ const CommissionsPage = () => {
                 alt="Abstractify Logo"
                 className="commissions-page-card-logo z-30 col-start-1 row-start-1 h-12 w-12 my-1 object-cover object-center rounded-full border border-transparent select-none"
               />
-              <div className="commissions-page-card-logo-overlay z-40 col-start-1 row-start-1 h-12 w-12 my-1 rounded-full bg-transparent border-2 border-zdaBlue-900/80 hover:border-zdaBlue-700 dark:border-gray-300 dark:hover:border-gray-600 motion-safe:transition-all motion-safe:duration-150 ease-out select-none" />
+              <div className="commissions-page-card-logo-overlay z-40 col-start-1 row-start-1 h-12 w-12 my-1 rounded-full bg-transparent border-2 border-zdaNightshade-900/80 hover:border-zdaNightshade-700 dark:border-gray-300 dark:hover:border-gray-600 motion-safe:transition-all motion-safe:duration-150 ease-out select-none" />
             </div>
           </div>
           <div className="commissions-page-card-middle-container justify-center items-center">
@@ -314,7 +314,7 @@ const CommissionsPage = () => {
         />
         {/* Vectorize */}
         <div
-          className="commissions-page-card-container flex flex-col w-[calc(100%-1.75rem)] xs:w-[25rem] sm:w-[34rem] md:w-[42rem] lg:w-[48rem] 3xl:w-[55rem] h-full mx-4 my-4 p-4 gap-4 rounded-xl bg-gradient-to-t sm:bg-gradient-to-tl from-zdaBG-lightCard dark:from-zdaBG-darkCard to-zdaBlue-100 dark:to-gray-700 drop-shadow-card-sm-light-blue sm:drop-shadow-card-light-blue dark:drop-shadow-card-sm-dark dark:sm:drop-shadow-card-dark"
+          className="commissions-page-card-container flex flex-col w-[calc(100%-1.75rem)] xs:w-[25rem] sm:w-[34rem] md:w-[42rem] lg:w-[48rem] 3xl:w-[55rem] h-full mx-4 my-4 p-4 gap-4 rounded-xl bg-gradient-to-t sm:bg-gradient-to-tl from-zdaBG-lightCard dark:from-zdaNightshade-950/35 to-zdaNightshade-50 dark:to-zdaNightshade-950/40 drop-shadow-card-sm-light-nightshade sm:drop-shadow-card-light-nightshade dark:drop-shadow-card-sm-dark dark:sm:drop-shadow-card-dark"
           onMouseEnter={() => setHover_vectorize(true)}
           onMouseLeave={() => setHover_vectorize(false)}
         >
@@ -335,7 +335,7 @@ const CommissionsPage = () => {
                 alt="Vectorize Logo"
                 className="commissions-page-card-logo z-30 col-start-1 row-start-1 h-12 w-12 my-1 object-cover object-center rounded-full border border-transparent select-none"
               />
-              <div className="commissions-page-card-logo-overlay z-40 col-start-1 row-start-1 h-12 w-12 my-1 rounded-full bg-transparent border-2 border-zdaBlue-900/80 hover:border-zdaBlue-700 dark:border-gray-300 dark:hover:border-gray-600 motion-safe:transition-all motion-safe:duration-150 ease-out select-none" />
+              <div className="commissions-page-card-logo-overlay z-40 col-start-1 row-start-1 h-12 w-12 my-1 rounded-full bg-transparent border-2 border-zdaNightshade-900/80 hover:border-zdaNightshade-700 dark:border-gray-300 dark:hover:border-gray-600 motion-safe:transition-all motion-safe:duration-150 ease-out select-none" />
             </div>
           </div>
           <div className="commissions-page-card-middle-container justify-center items-center">
@@ -446,7 +446,7 @@ const CommissionsPage = () => {
         />
         {/* Coalesce */}
         <div
-          className="commissions-page-card-container flex flex-col w-[calc(100%-1.75rem)] xs:w-[25rem] sm:w-[34rem] md:w-[42rem] lg:w-[48rem] 3xl:w-[55rem] h-full mx-4 my-4 p-4 gap-4 rounded-xl bg-gradient-to-t sm:bg-gradient-to-tl from-zdaBG-lightCard dark:from-zdaBG-darkCard to-zdaBlue-100 dark:to-gray-700 drop-shadow-card-sm-light-blue sm:drop-shadow-card-light-blue dark:drop-shadow-card-sm-dark dark:sm:drop-shadow-card-dark"
+          className="commissions-page-card-container flex flex-col w-[calc(100%-1.75rem)] xs:w-[25rem] sm:w-[34rem] md:w-[42rem] lg:w-[48rem] 3xl:w-[55rem] h-full mx-4 my-4 p-4 gap-4 rounded-xl bg-gradient-to-t sm:bg-gradient-to-tl from-zdaBG-lightCard dark:from-zdaNightshade-950/35 to-zdaNightshade-50 dark:to-zdaNightshade-950/40 drop-shadow-card-sm-light-nightshade sm:drop-shadow-card-light-nightshade dark:drop-shadow-card-sm-dark dark:sm:drop-shadow-card-dark"
           onMouseEnter={() => setHover_coalesce(true)}
           onMouseLeave={() => setHover_coalesce(false)}
         >
@@ -474,7 +474,7 @@ const CommissionsPage = () => {
                 alt="Coalesce Logo"
                 className="commissions-page-card-logo z-30 col-start-1 row-start-1 h-12 w-12 my-1 object-cover object-center rounded-full border border-transparent select-none"
               />
-              <div className="commissions-page-card-logo-overlay z-40 col-start-1 row-start-1 h-12 w-12 my-1 rounded-full bg-transparent border-2 border-zdaBlue-900/80 hover:border-zdaBlue-700 dark:border-gray-300 dark:hover:border-gray-600 motion-safe:transition-all motion-safe:duration-150 ease-out select-none" />
+              <div className="commissions-page-card-logo-overlay z-40 col-start-1 row-start-1 h-12 w-12 my-1 rounded-full bg-transparent border-2 border-zdaNightshade-900/80 hover:border-zdaNightshade-700 dark:border-gray-300 dark:hover:border-gray-600 motion-safe:transition-all motion-safe:duration-150 ease-out select-none" />
             </div>
           </div>
           <div className="commissions-page-card-middle-container justify-center items-center">
@@ -585,7 +585,7 @@ const CommissionsPage = () => {
         />
         {/* Coalesce Comparison */}
         <div className="commissions-comparison-container w-full flex flex-col justify-center items-center">
-          <div className="commissions-comparison-card-container flex flex-col w-[calc(100%-1.75rem)] xs:w-[25rem] sm:w-[34rem] md:w-[42rem] lg:w-[48rem] 3xl:w-[55rem] h-full justify-center items-center mx-4 my-4 p-8 gap-4 rounded-xl border border-gray-200 dark:border-gray-600/10 bg-zdaBG-lightCard dark:bg-gray-700/10">
+          <div className="commissions-comparison-card-container flex flex-col w-[calc(100%-1.75rem)] xs:w-[25rem] sm:w-[34rem] md:w-[42rem] lg:w-[48rem] 3xl:w-[55rem] h-full justify-center items-center mx-4 my-4 p-8 gap-4 rounded-xl border border-gray-200 dark:border-gray-600/10 bg-zdaBG-lightNightshadeCard dark:bg-zdaBG-darkNightshadeCard/20">
             <div className="commissions-comparison-card-text-container justify-center items-center ">
               <span className="commissions-page-card-title block text-center mx-auto text-xl font-urbanist font-normal text-gray-600 dark:text-gray-300 tracking-wider select-none">
                 Coalesce Comparison

@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./App.css";
 import { useRecoilState } from "recoil";
-import { pageAtom } from "./states/pageAtom";
+import { pageAtom, pagesList } from "./states/pageAtom";
 import Header from "./sections/Header/Header";
 import Body from "./sections/Body/Body";
 import Footer from "./sections/Footer/Footer";
@@ -58,7 +58,7 @@ const App = ({ route, routes }: props) => {
     // Fallback to Home
     if (!matchedRoute) {
       console.log("App: Hit fallback route");
-      setPage("Home");
+      setPage(pagesList[0].pageName);
     }
   }, []);
 

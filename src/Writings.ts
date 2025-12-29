@@ -142,6 +142,40 @@ To be something that brings joy`,
         day: 3,
         time: "1151",
       },
+      {
+        type: "poem",
+        title: "Cotton Candy Sky",
+        content: `A wondrous delight
+A voluminous sight
+Rays of color
+Floofs and poofs
+
+A sight to behold!
+This never gets old!
+Take a look, it's not a lie
+Up above there's a cotton candy sky!`,
+        datetime: "2025-10-26 0915",
+        year: 2025,
+        month: 10,
+        day: 26,
+        time: "0915"
+      },
+      {
+        type: "poem",
+        title: "The Egg Paradox",
+        content: `The beginning or the end,
+A shell or a trend?
+Humble beginnings,
+Twisted in paradox
+Which came first?
+The being, or
+The egg?`,
+        datetime: "2025-11-30 2158",
+        year: 2025,
+        month: 11,
+        day: 30,
+        time: "2158"
+      },
     ],
   },
   {

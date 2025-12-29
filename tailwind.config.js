@@ -21,18 +21,26 @@ export default {
           dark: '#0b0a0d',
           lessDarkCard: '#131215',
           darkCard: '#0f0e11',
+          darkNightshadeCard: '#2A2244',
           darkerCard: '#0e0d10',
           darkestCard: '#0d0b0f',
           extraDark: '#09080b',
           light: '#fafafa',
           lightCard: '#f0f0f0',
+          lightNightshadeCard: '#ECEAF0',
           lighterCard: '#f5f5f5',
         },
         zdaBtn: {
           dark: '#1b1a1d',
+          darkNightshade: '#362e50',
           darkerCard: '#1f1e21',
           darkCard: '#212023',
+          darkestNightshadeCard: '#28223e',
+          darkerNightshadeCard: '#2f2945',
+          darkNightshadeCard: '#3c3456',
           darkHover: '#2e2d30',
+          darkerNightshadeCardHover: '#3c3652',
+          darkNightshadeHover: '#494163',
           light: '#eaeaea',
           lightCard: '#e8e8e8',
           lightHover: '#d5d5d5',
@@ -93,11 +101,27 @@ export default {
           900: '#0f3590',
           950: '#0f245c',
           1000: '#031027',
-        }
+        },
+        zdaNightshade: {
+          50: '#f6F4Ff',
+          100: '#EcE7Ff',
+          200: '#D9D2Fb',
+          300: '#C6B9Fd',
+          400: '#AF97F8',
+          500: '#9774ef',
+          600: '#9162f0',
+          650: '#8556e4',
+          700: '#7C52D4',
+          800: '#6246A4',
+          900: '#473780',
+          950: '#2A2244',
+          1000: '#0A0914',
+        },
       },
       boxShadow: {
         'theme-menu-dropdown-light': '0px 2px 38px -10px rgba(22, 23, 24, 0.35), 0px 10px 20px -15px rgba(22, 23, 24, 0.2)',
         'theme-menu-dropdown-dark-blue': '1px 1px 38px -4px rgba(237, 247, 255, 0.25), 0px 3px 20px -15px rgba(237, 247, 255, 0.15)', // zdaBlue-50
+        'theme-menu-dropdown-dark-nightshade': '1px 1px 38px -4px rgba(237, 247, 255, 0.25), 0px 3px 20px -15px rgba(244, 241, 252, 0.15)', // zdaNightshade-50
         'card-writings-light': '15px 15px 20px #e9e9e9cc, -15px -15px 20px #ffffffcc',
         'card-writings-light-hover': '30px 30px 44px #e9e9e9cc, -30px -30px 44px #ffffffcc',
         'card-writings-dark': '11px 10px 16px #0e0d0ec9, -11px -10px 16px #09080bc9',
@@ -107,18 +131,24 @@ export default {
         'btn-light': '0px 6px 4px #19141a2a',
         'btn-dark': '0px 4px 6px #606060b5',
         'btn-dark-sm': '0px 3px 4px #60606090',
+        'btn-dark-nightshade-sm': '0px 3px 3px #6246A484', // zdaNightshade-800
         'btn-dark-neutral': '0px 4px 3px #0a090c7a',
         'card-light-blue': '-6px 6px 5px #2284ff24', // zdaBlue-500
+        'card-light-nightshade': '-6px 6px 5px #ab7ed624', // zdaNightshade-500
         'card-dark': '-8px 6px 4px #1f29371a',
         'card-sm-light-blue': '0px 6px 5px #2284ff24', // zdaBlue-500
+        'card-sm-light-nightshade': '0px 6px 5px #ab7ed624', // zdaNightshade-500
         'card-sm-dark': '0px -8px 8px #1f29379a',
         'card-sm-dark-blue': '0px 2px 10px #2284ff1a', // zdaBlue-500
+        'card-sm-dark-nightshade': '0px 2px 10px #ab7ed61a', // zdaNightshade-500
         'card-logo-light': '0px 4px 1px #60606040',
         'card-logo-dark': '0px 4px 4px #606060c0',
         'logo-light': '14px 12px 5px #19141a24',
         'logo-dark': '0px 0px 25px #60606012',
-        'logo-blue-light': '12px 10px 8px #2284ff99',
-        'logo-blue-dark': '0px 0px 16px #2284ff99',
+        'logo-blue-light': '12px 10px 8px #2284ff99', // zdaBlue-500
+        'logo-nightshade-light': '12px 10px 8px #ab7ed699', // zdaNightshade-500
+        'logo-blue-dark': '0px 0px 16px #2284ff99', // zdaBlue-500
+        'logo-nightshade-dark': '0px 0px 16px #ab7ed699', // zdaNightshade-500
         'logo-kofi': '6px 4px 8px #ff5a2a85',
         'logo-kofi-dark': '3px 2px 6px #fffaca80',
         'name-sm-light': '-2px 0 1px #19141a2a',
