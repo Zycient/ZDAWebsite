@@ -3,7 +3,6 @@
 export const commFormLink = "https://go.zda.works/commform";
 export const commInfoLink = "https://go.zda.works/comminfo";
 export const privacyLink = "https://go.zda.works/privacyzda";
-export const zdaWorksLink = "https://zda.works/";
 // Social Media
 export const bskyLink = "https://go.zda.works/bsky";
 export const igLink = "https://go.zda.works/insta";

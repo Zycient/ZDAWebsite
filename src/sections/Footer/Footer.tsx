@@ -26,7 +26,6 @@ import {
   printShopLink,
   privacyLink,
   threadsLink,
-  zdaWorksLink,
 } from "../../links";
 
 const monoLogoSources = [
@@ -50,7 +49,7 @@ const Footer = () => {
     const normalizedTheme = theme !== "dark" ? "" : theme;
     // Filter on sources by theme and colorScheme
     const resultObj = monoLogoSources.filter(
-      (logoSrc) => logoSrc.theme === normalizedTheme
+      (logoSrc) => logoSrc.theme === normalizedTheme,
     );
     if (resultObj && resultObj.length) {
       return resultObj[0].src;
@@ -253,19 +252,13 @@ const Footer = () => {
             <h3 className=" max-w-[20ch] font-light text-gray-700 dark:text-gray-400 tracking-tight italic text-sm mb-4 select-none">
               ZDA is brought to you by the abstract media hub company:
             </h3>
-            <a
-              className="select-none"
-              href={zdaWorksLink}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <span className="select-none">
               <img
                 className="max-h-4 lg:max-h-5"
                 src={theme === "dark" ? zdaworks_dark : zdaworks_light}
                 alt={altZDAWorksLogo}
-                title="Click to go to ZDAWorks site"
               />
-            </a>
+            </span>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h3 className="font-light text-gray-600 dark:text-gray-400 tracking-wide italic text-[15px] mb-4 cursor-default select-none">
@@ -314,15 +307,9 @@ const Footer = () => {
                 alt={altLongTextLogo}
               />
             </div>
-            <a
-              href={zdaWorksLink}
-              className="text-sm text-gray-700 dark:text-gray-400 sm:ml-6 mt-[27px] sm:mt-0 select-none"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="Click to go to ZDAWorks site"
-            >
+            <span className="text-sm text-gray-700 dark:text-gray-400 sm:ml-6 mt-[27px] sm:mt-0 select-none">
               © ZDA Works&nbsp;{currentYear}
-            </a>
+            </span>
           </div>
           <span className="inline-flex sm:ml-auto my-2 sm:my-0 gap-4 justify-center sm:justify-start">
             <button
