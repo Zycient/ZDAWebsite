@@ -1,17 +1,17 @@
 /* GLOBALLY USED LINKS */
 // Redirects and ZDA-related links
-export const commFormLink = "https://go.zda.works/commform";
-export const commInfoLink = "https://go.zda.works/comminfo";
-export const privacyLink = "https://go.zda.works/privacyzda";
+export const commFormLink = "https://link.zerodayanubis.com/commform";
+export const commInfoLink = "https://link.zerodayanubis.com/comminfo";
+export const privacyLink = "https://link.zerodayanubis.com/privacyzda";
 // Social Media
-export const bskyLink = "https://go.zda.works/bsky";
-export const igLink = "https://go.zda.works/insta";
-export const threadsLink = "https://go.zda.works/threads";
-export const caraLink = "https://go.zda.works/cara";
-export const mastoLink = "https://mastoart.social/@zerodayanubis";
+export const bskyLink = "https://link.zerodayanubis.com/bsky";
+export const igLink = "https://link.zerodayanubis.com/insta";
+export const threadsLink = "https://link.zerodayanubis.com/threads";
+export const caraLink = "https://link.zerodayanubis.com/cara";
+export const mastoLink = "https://link.zerodayanubis.com/masto";
 // Prints/Support
-export const printShopLink = "https://go.zda.works/prints";
-export const kofiLink = "https://go.zda.works/kofi";
-export const payPalLink = "https://go.zda.works/paypal";
+export const printShopLink = "https://link.zerodayanubis.com/prints";
+export const kofiLink = "https://link.zerodayanubis.com/kofi";
+export const payPalLink = "https://link.zerodayanubis.com/paypal";
 // Misc.
-export const discordLink = "https://go.zda.works/discord";
+export const discordLink = "https://link.zerodayanubis.com/discord";
